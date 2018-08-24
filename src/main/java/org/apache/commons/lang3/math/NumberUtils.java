@@ -1729,6 +1729,7 @@ public class NumberUtils {
         if (StringUtils.isEmpty(str)) {
             return false;
         }
+        // since this works for Double values sugest creating a specific method for double
         if (str.charAt(str.length() - 1) == '.') {
             return false;
         }
